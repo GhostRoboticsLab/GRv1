@@ -1,6 +1,38 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""SPECIFICATION
+Electronic specifications
+Operating voltage: 4.8-7.2V
+6V test environment
+Operating speed (no load): 0.18 sec/60 degrees
+Resting current: 80mA
+Locking torque: 11.5KG*cm
+Stall current: 1.4A
+Standby current: 4mA
+7V test environment
+Operating speed (no load): 0.16sec/60 degrees
+Resting current: 100mA
+Locking torque: 12KG*cm
+Stall current: 1.76A
+Standby current: 5mA
+Mechanical specifications
+Gear material: metal gear
+Operating angle: 270 degrees
+Wiring gauge: 28PVC
+Data line length: 320mm
+Gear bracket spline: 25T/5.80
+Gear ratio: 310:1
+Size: 54.5*20*47.5mm
+Control specifications
+Feedback signal: 0-3.3V
+Control signal: RC PWM
+Pulse range: 500-2500 us
+Median signal value: 1500us
+Clockwise rotation: <1500us
+Control frequency: 50-330Hz (Arduion compatible)
+"""
+
 #Libraries
 import time    #https://docs.python.org/fr/3/library/time.html
 from adafruit_servokit import ServoKit    #https://circuitpython.readthedocs.io/projects/servokit/en/latest/
