@@ -30,11 +30,11 @@ Control signal: RC PWM
 Pulse range: 500-2500 us
 Median signal value: 1500us
 Clockwise rotation: <1500us
-Control frequency: 50-330Hz (Arduion compatible)
+Control frequency: 50-330Hz (Arduino compatible)
 """
 
 #Libraries
-import time    #https://docs.python.org/fr/3/library/time.html
+import time     #https://docs.python.org/fr/3/library/time.html
 from adafruit_servokit import ServoKit    #https://circuitpython.readthedocs.io/projects/servokit/en/latest/
 
 #Constants
