@@ -38,7 +38,7 @@ import time     #https://docs.python.org/fr/3/library/time.html
 from adafruit_servokit import ServoKit    #https://circuitpython.readthedocs.io/projects/servokit/en/latest/
 
 #Constants
-nbPCAServo=16
+nbPCAServo=1
 
 #Parameters
 MIN_IMP  =[500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500]
