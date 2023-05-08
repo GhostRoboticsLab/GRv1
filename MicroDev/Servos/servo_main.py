@@ -78,8 +78,12 @@ def pcaScenario():
         time.sleep(0.5)
 
 
-
-
+# func Servo_set to set servo movement 
+def Servo_set(int servo_n, int angle):
+    
+    pca.servo[servo_n].angle = angle
+	pca.servo[i].angle=None #disable channel
+        
 if __name__ == '__main__':
     init()
     main()
